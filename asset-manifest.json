@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RobotClub-Ryukyu.github.io/TCDB/static/css/main.f855e6bc.css",
-    "main.js": "/RobotClub-Ryukyu.github.io/TCDB/static/js/main.70a0696d.js",
-    "static/js/453.e81e51cc.chunk.js": "/RobotClub-Ryukyu.github.io/TCDB/static/js/453.e81e51cc.chunk.js",
-    "static/media/logo.svg": "/RobotClub-Ryukyu.github.io/TCDB/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/RobotClub-Ryukyu.github.io/TCDB/index.html",
-    "main.f855e6bc.css.map": "/RobotClub-Ryukyu.github.io/TCDB/static/css/main.f855e6bc.css.map",
-    "main.70a0696d.js.map": "/RobotClub-Ryukyu.github.io/TCDB/static/js/main.70a0696d.js.map",
-    "453.e81e51cc.chunk.js.map": "/RobotClub-Ryukyu.github.io/TCDB/static/js/453.e81e51cc.chunk.js.map"
+    "main.css": "/TCDB/static/css/main.f855e6bc.css",
+    "main.js": "/TCDB/static/js/main.05ac18b0.js",
+    "static/js/453.e81e51cc.chunk.js": "/TCDB/static/js/453.e81e51cc.chunk.js",
+    "static/media/logo.svg": "/TCDB/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/TCDB/index.html",
+    "main.f855e6bc.css.map": "/TCDB/static/css/main.f855e6bc.css.map",
+    "main.05ac18b0.js.map": "/TCDB/static/js/main.05ac18b0.js.map",
+    "453.e81e51cc.chunk.js.map": "/TCDB/static/js/453.e81e51cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.70a0696d.js"
+    "static/js/main.05ac18b0.js"
   ]
 }
