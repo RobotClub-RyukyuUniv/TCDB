@@ -6,6 +6,7 @@ const DownloadCSV = () => {
   const [csvData, setCsvData] = useState([]);
   const [headers, setHeaders] = useState([]);
   const [newRow, setNewRow] = useState({ 'サークル名': '', '大学': '' });
+  const [editIndex, setEditIndex] = useState(null);
 
   useEffect(() => {
     fetchData();
@@ -47,13 +48,25 @@ const DownloadCSV = () => {
   };
 
   const handleAddRow = () => {
-    setCsvData([...csvData, newRow]);
+    if (editIndex !== null) {
+      const updatedData = [...csvData];
+      updatedData[editIndex] = newRow;
+      setCsvData(updatedData);
+      setEditIndex(null);
+    } else {
+      setCsvData([...csvData, newRow]);
+    }
     setNewRow({ 'サークル名': '', '大学': '' });
   };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setNewRow({ ...newRow, [name]: value });
+  };
+
+  const handleEdit = (index) => {
+    setNewRow(csvData[index]);
+    setEditIndex(index);
   };
 
   return (
@@ -66,6 +79,7 @@ const DownloadCSV = () => {
               <div className="card-body">
                 <h5 className="card-title">{row['サークル名']}</h5>
                 <p className="card-text">{row['大学']}</p>
+                <button className="btn btn-secondary" onClick={() => handleEdit(rowIndex)}>編集</button>
                 {/* 他のデータも表示したい場合はここに追加 */}
               </div>
             </div>
@@ -94,7 +108,9 @@ const DownloadCSV = () => {
             onChange={handleInputChange}
           />
         </div>
-        <button className="btn btn-success mt-2" onClick={handleAddRow}>行を追加</button>
+        <button className="btn btn-success mt-2" onClick={handleAddRow}>
+          {editIndex !== null ? '行を更新' : '行を追加'}
+        </button>
       </div>
     </div>
   );
