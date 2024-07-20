@@ -1,6 +1,6 @@
 # 技術系サークルデーターベース：TCDB
 
-here is English [/README_EN.md]
+here is English version [/README_EN.md]
 
 ## What is TSDB?
 
