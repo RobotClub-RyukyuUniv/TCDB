@@ -1,6 +1,6 @@
-# 技術系サークルデーターベース：TCDB
+# Tech Club Data Base：TCDB
 
-here is Japanese version [README.md](https://github.com/RobotClub-RyukyuUniv/TCDB/tree/main?tab=readme-ov-file)
+here is Japanese version [README.md](https://github.com/RobotClub-RyukyuUniv/TCDB/blob/main/README.md)
 
 ## What is TSDB?
 
