@@ -1,6 +1,6 @@
 # 技術系サークルデーターベース：TCDB
 
-here is English version [/README_EN.md]
+here is English version [README_EN.md](https://github.com/RobotClub-RyukyuUniv/TCDB/blob/main/README_EN.md)
 
 ## What is TSDB?
 
