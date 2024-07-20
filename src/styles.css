@@ -1,0 +1,71 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .btn-custom-download {
+    background-color: #4CAF50; /* 緑色 */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px 4px 0; /* 右側に20pxのマージンを追加 */
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .btn-custom-save {
+    background-color: #008CBA; /* 青色 */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0 4px 20px; /* 左側に20pxのマージンを追加 */
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .btn-normal{
+    background-color: #c4ebf8; 
+    color: rgb(38, 33, 61);
+    border: none;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .add-edit-form{
+    margin-top: 20px;
+    background-color: #6a8791; 
+    padding: 16px;
+    border-radius: 8px;
+  }
