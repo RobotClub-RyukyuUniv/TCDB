@@ -2,15 +2,15 @@
 
 here is Japanese version [README.md](https://github.com/RobotClub-RyukyuUniv/TCDB/blob/main/README.md)
 
-## What is TSDB?
+## What is TCDB?
 
 Tech club DataBase a.k.a. TCDB was created with the goal of covering all technical clubs in Japan.
 
-TSDB allows users to search and edit information from a database of technical clubs in Japan, and to download data in .csv format.
+TCDB allows users to search and edit information from a database of technical clubs in Japan, and to download data in .csv format.
 
 We hope that this DB will be used for technical exchanges among technical clubs, to create connections with companies, and to use this data for research and analysis.
 
-## How to use TSDB?
+## How to use TCDB?
 
 Please access [Homepage](https://robotclub-ryukyuuniv.github.io/TCDB/)
 
