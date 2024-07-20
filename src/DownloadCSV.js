@@ -5,6 +5,7 @@ import './styles.css';
 const DownloadCSV = () => {
   const [csvData, setCsvData] = useState([]);
   const [headers, setHeaders] = useState([]);
+  const [newRow, setNewRow] = useState({ 'サークル名': '', '大学': '' });
 
   useEffect(() => {
     fetchData();
@@ -45,6 +46,16 @@ const DownloadCSV = () => {
     }
   };
 
+  const handleAddRow = () => {
+    setCsvData([...csvData, newRow]);
+    setNewRow({ 'サークル名': '', '大学': '' });
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setNewRow({ ...newRow, [name]: value });
+  };
+
   return (
     <div className="container">
       <button className="btn btn-primary mb-3" onClick={handleDownload}>Download CSV</button>
@@ -60,6 +71,30 @@ const DownloadCSV = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="mt-4">
+        <h5>新しい行を追加</h5>
+        <div className="form-group">
+          <label>サークル名</label>
+          <input
+            type="text"
+            className="form-control"
+            name="サークル名"
+            value={newRow['サークル名']}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div className="form-group">
+          <label>大学</label>
+          <input
+            type="text"
+            className="form-control"
+            name="大学"
+            value={newRow['大学']}
+            onChange={handleInputChange}
+          />
+        </div>
+        <button className="btn btn-success mt-2" onClick={handleAddRow}>行を追加</button>
       </div>
     </div>
   );
