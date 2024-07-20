@@ -4,7 +4,7 @@ here is Japanese version [README.md](https://github.com/RobotClub-RyukyuUniv/TCD
 
 ## What is TSDB?
 
-Tech club DataBase a.k.a. TCDB was created with the goal of covering all technical circles in Japan.
+Tech club DataBase a.k.a. TCDB was created with the goal of covering all technical clubs in Japan.
 
 TSDB allows users to search and edit information from a database of technical clubs in Japan, and to download data in .csv format.
 
