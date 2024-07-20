@@ -3,23 +3,27 @@ import Papa from 'papaparse';
 import './styles.css';
 
 const DownloadCSV = () => {
-  const [csvData, setCsvData] = useState([]);
-  const [headers, setHeaders] = useState([]);
-  const [newRow, setNewRow] = useState({ 'サークル名': '', '大学': '' });
-  const [editIndex, setEditIndex] = useState(null);
+  const [csvData, setCsvData] = useState([]); // CSVデータを格納するステート
+  const [headers, setHeaders] = useState([]); // CSVのヘッダーを格納するステート
+  const [newRow, setNewRow] = useState({ 'サークル名': '', '大学': '' }); // 新しい行のデータを格納するステート
+  const [editIndex, setEditIndex] = useState(null); // 編集中の行のインデックスを格納するステート
 
   useEffect(() => {
-    fetchData();
+    fetchData(); // コンポーネントがマウントされたときにデータをフェッチ
   }, []);
 
   const fetchData = async () => {
     try {
-      const response = await fetch('/api/csv');
+      // CSVファイルをフェッチ
+      const response = await fetch(`${process.env.PUBLIC_URL}/robot_DB_example.csv`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
+      // テキストとしてレスポンスを取得
       const text = await response.text();
+      // CSVデータをパース
       const parsedData = Papa.parse(text, { header: true });
+      // ヘッダーとデータをステートにセット
       setHeaders(parsedData.meta.fields);
       setCsvData(parsedData.data);
     } catch (error) {
@@ -27,71 +31,51 @@ const DownloadCSV = () => {
     }
   };
 
-  const handleDownload = async () => {
+  const handleDownload = () => {
     try {
-      const response = await fetch('/api/csv');
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      const blob = await response.blob();
+      // 編集されたデータをCSV形式に変換
+      const csv = Papa.unparse(csvData, { header: true });
+      // Blobオブジェクトを作成
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      // BlobオブジェクトのURLを生成
       const url = URL.createObjectURL(blob);
+      // ダウンロードリンクを作成
       const link = document.createElement('a');
-      link.href = url;
-      link.setAttribute('download', 'data.csv');
+      link.setAttribute('href', url);
+      link.setAttribute('download', 'edited_robot_DB_example.csv');
+      // リンクをドキュメントに追加してクリックイベントをトリガー
       document.body.appendChild(link);
       link.click();
+      // リンクをドキュメントから削除
       document.body.removeChild(link);
     } catch (error) {
-      console.error('Error downloading the CSV file:', error);
+      console.error('Error generating the CSV file:', error);
     }
   };
 
-  const handleAddRow = async () => {
-    try {
-      const response = await fetch('/api/csv', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(newRow),
-      });
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      await fetchData();
-      setNewRow({ 'サークル名': '', '大学': '' });
-      setEditIndex(null);
-    } catch (error) {
-      console.error('Error adding the row:', error);
+  const handleAddRow = () => {
+    if (editIndex !== null) {
+      // 編集モードの場合、既存の行を更新
+      const updatedData = [...csvData];
+      updatedData[editIndex] = newRow;
+      setCsvData(updatedData);
+      setEditIndex(null); // 編集モードを解除
+    } else {
+      // 新しい行を追加
+      setCsvData([...csvData, newRow]);
     }
-  };
-
-  const handleEditRow = async () => {
-    try {
-      const response = await fetch(`/api/csv/${editIndex}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(newRow),
-      });
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      await fetchData();
-      setNewRow({ 'サークル名': '', '大学': '' });
-      setEditIndex(null);
-    } catch (error) {
-      console.error('Error editing the row:', error);
-    }
+    // 新しい行のデータをリセット
+    setNewRow({ 'サークル名': '', '大学': '' });
   };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
+    // 入力フィールドの変更をステートに反映
     setNewRow({ ...newRow, [name]: value });
   };
 
   const handleEdit = (index) => {
+    // 編集モードに切り替え、編集する行のデータをセット
     setNewRow(csvData[index]);
     setEditIndex(index);
   };
@@ -107,6 +91,7 @@ const DownloadCSV = () => {
                 <h5 className="card-title">{row['サークル名']}</h5>
                 <p className="card-text">{row['大学']}</p>
                 <button className="btn btn-secondary" onClick={() => handleEdit(rowIndex)}>編集</button>
+                {/* 他のデータも表示したい場合はここに追加 */}
               </div>
             </div>
           </div>
@@ -134,7 +119,7 @@ const DownloadCSV = () => {
             onChange={handleInputChange}
           />
         </div>
-        <button className="btn btn-success mt-2" onClick={editIndex !== null ? handleEditRow : handleAddRow}>
+        <button className="btn btn-success mt-2" onClick={handleAddRow}>
           {editIndex !== null ? '行を更新' : '行を追加'}
         </button>
       </div>
