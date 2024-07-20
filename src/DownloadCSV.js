@@ -109,27 +109,9 @@ const DownloadCSV = () => {
 
   return (
     <div className="container">
-      <button className="btn-custom-download mb-3" onClick={handleDownload}>Download CSV</button>
-      <button className="btn-custom-save mb-3" onClick={handleSave}>保存</button>
 
-      <div className="row">
-        {csvData.map((row, rowIndex) => (
-          <div className="col-md-4 mb-3" key={rowIndex}>
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">{row['サークル名']}</h5>
-                <p className="card-text">{row['大学']}</p>
-                <button className="btn btn-secondary" onClick={() => handleEdit(rowIndex)}>編集</button>
-                <button className="btn btn-danger" onClick={() => handleDelete(rowIndex)}>削除</button>
-                {/* 他のデータも表示したい場合はここに追加 */}
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <div className="mt-4">
-        <h5>新しい行を追加または編集</h5>
+      <div className="add-edit-form">
+        <h5>新しいサークルを追加または編集</h5>
         <div className="form-group">
           <label>サークル名</label>
           <input
@@ -150,10 +132,32 @@ const DownloadCSV = () => {
             onChange={handleInputChange}
           />
         </div>
-        <button className="btn btn-success mt-2" onClick={handleAddRow}>
+        <button className="btn-normal" onClick={handleAddRow}>
           {editIndex !== null ? '行を更新' : '行を追加'}
         </button>
       </div>
+
+      <button className="btn-custom-download mb-3" onClick={handleDownload}>Download CSV</button>
+      <button className="btn-custom-save mb-3" onClick={handleSave}>保存</button>
+
+
+      <div className="row">
+        {csvData.map((row, rowIndex) => (
+          <div className="col-md-4 mb-3" key={rowIndex}>
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">{row['サークル名']}</h5>
+                <p className="card-text">{row['大学']}</p>
+                <button className="btn-normal" onClick={() => handleEdit(rowIndex)}>編集</button>
+                <button className="btn-normal" onClick={() => handleDelete(rowIndex)}>削除</button>
+                {/* 他のデータも表示したい場合はここに追加 */}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+
     </div>
   );
 };

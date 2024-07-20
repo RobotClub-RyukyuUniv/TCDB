@@ -50,7 +50,7 @@
   }
 
   .btn-normal{
-    background-color: #c4ebf8; /* 青色 */
+    background-color: #c4ebf8; 
     color: rgb(38, 33, 61);
     border: none;
     padding: 6px 8px;
@@ -60,5 +60,12 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .add-edit-form{
+    margin-top: 20px;
+    background-color: #6a8791; 
+    padding: 16px;
     border-radius: 8px;
   }

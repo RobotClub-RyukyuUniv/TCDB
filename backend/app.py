@@ -15,7 +15,6 @@ def hello_world():
 @app.route("/save",  methods=['POST'])
 def save_data():
     data = request.json.get('data')  #データを取得する
-    print(data)
     cve.edit(data)   # csvファイルを編集する
     
     return jsonify({'message': 'データが保存されました'}), 200  #成功したら200を送る。
