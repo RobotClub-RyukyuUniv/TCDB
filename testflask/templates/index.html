@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV操作</title>
+</head>
+<body>
+    <h1>CSVファイルの内容</h1>
+    {% if rows %}
+    <table border="1">
+        <tr>
+            {% for header in headers %}
+            <th>{{ header }}</th>
+            {% endfor %}
+        </tr>
+        {% for row in rows %}
+        <tr>
+            {% for cell in row %}
+            <td>{{ cell }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p>データがありません。</p>
+    {% endif %}
+
+    <h2>CSVファイルの検索</h2>
+    <form action="/search" method="get">
+        <label for="prefecture_search">Prefecture:</label><br>
+        <input type="text" id="prefecture_search" name="prefecture"><br><br>
+        <input type="submit" value="Search">
+    </form>
+
+    <h2>CSVファイルの更新</h2>
+    <form action="/update" method="post">
+        <label for="circle_name">Circle Name:</label><br>
+        <input type="text" id="circle_name" name="circle_name"><br><br>
+        <label for="university_name">University Name:</label><br>
+        <input type="text" id="university_name" name="university_name"><br><br>
+        <label for="prefecture">Prefecture:</label><br>
+        <input type="text" id="prefecture" name="prefecture"><br><br>
+        <input type="submit" value="Update CSV">
+    </form>
+</body>
+</html>
