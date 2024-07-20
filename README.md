@@ -6,11 +6,11 @@ here is English version [README_EN.md](https://github.com/RobotClub-RyukyuUniv/T
 
 Tech club DataBase a.k.a. TCDB は日本の全ての技術系サークルを網羅することを目標に作成されました。
 
-TSDBでは全国の技術系サークルのデータベースから検索や情報の編集ができるほかに、.csv形式のデータをダウンロードすることができます。
+TCDBでは全国の技術系サークルのデータベースから検索や情報の編集ができるほかに、.csv形式のデータをダウンロードすることができます。
 
 私たちはこのDBが技術系サークル同士の技術交流や、企業とのつながりが生まれたり、研究や分析などでこのデータが使われることを望んでいます。
 
-## How to use TSDB?
+## How to use TCDB?
 
 [ホームページ](https://robotclub-ryukyuuniv.github.io/TCDB/)にごアクセスしてください
 
