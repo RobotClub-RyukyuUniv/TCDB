@@ -20,3 +20,45 @@
     font-size: 1rem;
     color: #555;
   }
+
+  .btn-custom-download {
+    background-color: #4CAF50; /* 緑色 */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px 4px 0; /* 右側に20pxのマージンを追加 */
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .btn-custom-save {
+    background-color: #008CBA; /* 青色 */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0 4px 20px; /* 左側に20pxのマージンを追加 */
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .btn-normal{
+    background-color: #c4ebf8; /* 青色 */
+    color: rgb(38, 33, 61);
+    border: none;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }

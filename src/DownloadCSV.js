@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Papa from 'papaparse';
+import Axios from 'axios'; // Axiosをインポート
 import './styles.css';
 
 const DownloadCSV = () => {
   const [csvData, setCsvData] = useState([]); // CSVデータを格納するステート
-  const [headers, setHeaders] = useState([]); // CSVのヘッダーを格納するステート
   const [newRow, setNewRow] = useState({ 'サークル名': '', '大学': '' }); // 新しい行のデータを格納するステート
   const [editIndex, setEditIndex] = useState(null); // 編集中の行のインデックスを格納するステート
 
@@ -24,7 +24,6 @@ const DownloadCSV = () => {
       // CSVデータをパース
       const parsedData = Papa.parse(text, { header: true });
       // ヘッダーとデータをステートにセット
-      setHeaders(parsedData.meta.fields);
       setCsvData(parsedData.data);
     } catch (error) {
       console.error('Error fetching the CSV file:', error);
@@ -53,6 +52,22 @@ const DownloadCSV = () => {
     }
   };
 
+  const handleSave = async () => {
+    try {
+      const response = await Axios.post('http://127.0.0.1:5000/save', {
+        data: JSON.stringify(csvData)
+      });
+      if (response.status === 200) {
+        alert('データが保存されました');
+      } else {
+        alert('データの保存に失敗しました');
+      }
+    } catch (error) {
+      console.error('Error saving data:', error);
+      alert('データの保存中にエラーが発生しました');
+    }
+  };
+
   const handleAddRow = () => {
     if (editIndex !== null) {
       // 編集モードの場合、既存の行を更新
@@ -76,13 +91,27 @@ const DownloadCSV = () => {
 
   const handleEdit = (index) => {
     // 編集モードに切り替え、編集する行のデータをセット
-    setNewRow(csvData[index]);
-    setEditIndex(index);
+    if (editIndex === index) {
+      // 同じ行を再度クリックした場合、編集モードを解除
+      setNewRow({ 'サークル名': '', '大学': '' });
+      setEditIndex(null);
+    } else {
+      // 編集モードに切り替え、編集する行のデータをセット
+      setNewRow(csvData[index]);
+      setEditIndex(index);
+    }
+  };
+
+  const handleDelete = (index) => {
+    // 指定された行を削除
+    setCsvData(csvData.filter((_, i) => i !== index));
   };
 
   return (
     <div className="container">
-      <button className="btn btn-primary mb-3" onClick={handleDownload}>Download CSV</button>
+      <button className="btn-custom-download mb-3" onClick={handleDownload}>Download CSV</button>
+      <button className="btn-custom-save mb-3" onClick={handleSave}>保存</button>
+
       <div className="row">
         {csvData.map((row, rowIndex) => (
           <div className="col-md-4 mb-3" key={rowIndex}>
@@ -91,14 +120,16 @@ const DownloadCSV = () => {
                 <h5 className="card-title">{row['サークル名']}</h5>
                 <p className="card-text">{row['大学']}</p>
                 <button className="btn btn-secondary" onClick={() => handleEdit(rowIndex)}>編集</button>
+                <button className="btn btn-danger" onClick={() => handleDelete(rowIndex)}>削除</button>
                 {/* 他のデータも表示したい場合はここに追加 */}
               </div>
             </div>
           </div>
         ))}
       </div>
+
       <div className="mt-4">
-        <h5>新しい行を追加</h5>
+        <h5>新しい行を追加または編集</h5>
         <div className="form-group">
           <label>サークル名</label>
           <input
