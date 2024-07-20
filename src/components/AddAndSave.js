@@ -41,23 +41,21 @@ const AddAndSave = ({ csvData, setCsvData, editIndex, setEditIndex }) => {
     return (
         <div>
         <div className="add-edit-form">
-            <h5>新しいサークルを追加または編集</h5>
+            <h5 className="add-text">あなたのサークルを追加しよう</h5>
             <div className="form-group">
-            <label>サークル名</label>
             <input
                 type="text"
-                className="form-control"
-                name="サークル名"
+                className="form-control-club"
+                placeholder="サークル名"
                 value={newRow['サークル名']}
                 onChange={handleInputChange}
             />
             </div>
             <div className="form-group">
-            <label>大学</label>
             <input
                 type="text"
-                className="form-control"
-                name="大学"
+                className="form-control-univ"
+                placeholder="大学"
                 value={newRow['大学']}
                 onChange={handleInputChange}
             />
