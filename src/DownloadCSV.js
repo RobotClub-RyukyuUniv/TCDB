@@ -14,7 +14,7 @@ const DownloadCSV = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch(`${process.env.PUBLIC_URL}/robot_DB_example.csv`);
+      const response = await fetch('/api/csv');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -29,34 +29,61 @@ const DownloadCSV = () => {
 
   const handleDownload = async () => {
     try {
-      const response = await fetch(`${process.env.PUBLIC_URL}/robot_DB_example.csv`);
+      const response = await fetch('/api/csv');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
-      const text = await response.text();
-      const blob = new Blob([text], { type: 'text/csv;charset=utf-8;' });
+      const blob = await response.blob();
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.setAttribute('href', url);
-      link.setAttribute('download', 'robot_DB_example.csv');
+      link.href = url;
+      link.setAttribute('download', 'data.csv');
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
     } catch (error) {
-      console.error('Error fetching the CSV file:', error);
+      console.error('Error downloading the CSV file:', error);
     }
   };
 
-  const handleAddRow = () => {
-    if (editIndex !== null) {
-      const updatedData = [...csvData];
-      updatedData[editIndex] = newRow;
-      setCsvData(updatedData);
+  const handleAddRow = async () => {
+    try {
+      const response = await fetch('/api/csv', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newRow),
+      });
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      await fetchData();
+      setNewRow({ 'サークル名': '', '大学': '' });
       setEditIndex(null);
-    } else {
-      setCsvData([...csvData, newRow]);
+    } catch (error) {
+      console.error('Error adding the row:', error);
     }
-    setNewRow({ 'サークル名': '', '大学': '' });
+  };
+
+  const handleEditRow = async () => {
+    try {
+      const response = await fetch(`/api/csv/${editIndex}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newRow),
+      });
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      await fetchData();
+      setNewRow({ 'サークル名': '', '大学': '' });
+      setEditIndex(null);
+    } catch (error) {
+      console.error('Error editing the row:', error);
+    }
   };
 
   const handleInputChange = (e) => {
@@ -80,7 +107,6 @@ const DownloadCSV = () => {
                 <h5 className="card-title">{row['サークル名']}</h5>
                 <p className="card-text">{row['大学']}</p>
                 <button className="btn btn-secondary" onClick={() => handleEdit(rowIndex)}>編集</button>
-                {/* 他のデータも表示したい場合はここに追加 */}
               </div>
             </div>
           </div>
@@ -108,7 +134,7 @@ const DownloadCSV = () => {
             onChange={handleInputChange}
           />
         </div>
-        <button className="btn btn-success mt-2" onClick={handleAddRow}>
+        <button className="btn btn-success mt-2" onClick={editIndex !== null ? handleEditRow : handleAddRow}>
           {editIndex !== null ? '行を更新' : '行を追加'}
         </button>
       </div>
