@@ -7,6 +7,7 @@ const DownloadCSV = () => {
   const [csvData, setCsvData] = useState([]); // CSVデータを格納するステート
   const [newRow, setNewRow] = useState({ 'サークル名': '', '大学': '' }); // 新しい行のデータを格納するステート
   const [editIndex, setEditIndex] = useState(null); // 編集中の行のインデックスを格納するステート
+  const [searchKeyword, setSearchKeyword] = useState(''); // 検索キーワードを格納するステート
 
   useEffect(() => {
     fetchData(); // コンポーネントがマウントされたときにデータをフェッチ
@@ -107,8 +108,26 @@ const DownloadCSV = () => {
     setCsvData(csvData.filter((_, i) => i !== index));
   };
 
+  const handleSearchChange = (e) => {
+    // 検索キーワードの変更をステートに反映
+    setSearchKeyword(e.target.value);
+  };
+
+  const filteredData = csvData.filter(row =>
+    row['サークル名'].includes(searchKeyword) || row['大学'].includes(searchKeyword)
+  );
+
   return (
     <div className="container">
+      <div className="search-bar">
+        <input
+          type="text"
+          className="form-control"
+          placeholder="サークル名または大学で検索"
+          value={searchKeyword}
+          onChange={handleSearchChange}
+        />
+      </div>
 
       <div className="add-edit-form">
         <h5>新しいサークルを追加または編集</h5>
@@ -140,9 +159,8 @@ const DownloadCSV = () => {
       <button className="btn-custom-download mb-3" onClick={handleDownload}>Download CSV</button>
       <button className="btn-custom-save mb-3" onClick={handleSave}>保存</button>
 
-
       <div className="row">
-        {csvData.map((row, rowIndex) => (
+        {filteredData.map((row, rowIndex) => (
           <div className="col-md-4 mb-3" key={rowIndex}>
             <div className="card">
               <div className="card-body">
@@ -156,8 +174,6 @@ const DownloadCSV = () => {
           </div>
         ))}
       </div>
-
-
     </div>
   );
 };
