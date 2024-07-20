@@ -1,7 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import Papa from 'papaparse';
+import './styles.css';
 
 const DownloadCSV = () => {
-  const [csvData, setCsvData] = useState('');
+  const [csvData, setCsvData] = useState([]);
+  const [headers, setHeaders] = useState([]);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch(`${process.env.PUBLIC_URL}/robot_DB_example.csv`);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const text = await response.text();
+      const parsedData = Papa.parse(text, { header: true });
+      setHeaders(parsedData.meta.fields);
+      setCsvData(parsedData.data);
+    } catch (error) {
+      console.error('Error fetching the CSV file:', error);
+    }
+  };
 
   const handleDownload = async () => {
     try {
@@ -10,8 +32,6 @@ const DownloadCSV = () => {
         throw new Error('Network response was not ok');
       }
       const text = await response.text();
-      setCsvData(text);
-
       const blob = new Blob([text], { type: 'text/csv;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
@@ -26,9 +46,21 @@ const DownloadCSV = () => {
   };
 
   return (
-    <div>
-      <button onClick={handleDownload}>Download CSV</button>
-      <pre>{csvData}</pre>
+    <div className="container">
+      <button className="btn btn-primary mb-3" onClick={handleDownload}>Download CSV</button>
+      <div className="row">
+        {csvData.map((row, rowIndex) => (
+          <div className="col-md-4 mb-3" key={rowIndex}>
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">{row['サークル名']}</h5>
+                <p className="card-text">{row['大学']}</p>
+                {/* 他のデータも表示したい場合はここに追加 */}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
