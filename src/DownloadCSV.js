@@ -7,6 +7,7 @@ const DownloadCSV = () => {
   const [csvData, setCsvData] = useState([]); // CSVデータを格納するステート
   const [newRow, setNewRow] = useState({ 'サークル名': '', '大学': '' }); // 新しい行のデータを格納するステート
   const [editIndex, setEditIndex] = useState(null); // 編集中の行のインデックスを格納するステート
+  const [searchQuery, setSearchQuery] = useState(''); // 検索クエリを格納するステート
 
   useEffect(() => {
     fetchData(); // コンポーネントがマウントされたときにデータをフェッチ

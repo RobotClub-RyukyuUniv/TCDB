@@ -3,6 +3,7 @@ import Axios from 'axios';
 
 const AddAndSave = ({ csvData, setCsvData, editIndex, setEditIndex }) => {
     const [newRow, setNewRow] = useState({ 'サークル名': '', '大学': '' });
+    const [searchQuery, setSearchQuery] = useState('');
 
     const handleAddRow = () => {
         if (editIndex !== null) {
