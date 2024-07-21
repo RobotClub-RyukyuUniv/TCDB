@@ -5,27 +5,33 @@
   .card {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 16px;
+    padding: 10px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
+.card-body {
+    color:#CCC;
+    font-size:2rem
+  }
+
+
   .card-title {
-    font-size: 2rem;
+    font-size: 10rem;
+    color:#008CBA;
     font-weight: bold;
     margin-bottom: 8px;
   }
 
   .card-title2 {
     font-size: 1.25rem;
-    color: #c5c5c5;
+    color: #c4ebf8;
     font-weight: 500;
     margin-bottom: 8px;
   }
   
   .card-text {
-    font-size: 1rem;
-    color: #555;
+    color: #CCC;
   }
 
   .btn-custom-download {
@@ -71,9 +77,10 @@
   }
 
   .add-edit-form {
-    margin-top: 20px;
+    margin-top: 100px;
     background-color: #6a8791; 
     padding: 16px;
+    margin: 0 400px;
     border-radius: 8px;
     text-align: left; /* 追加: フォームのラベルと入力フィールドを左寄せにする */
 }
@@ -111,7 +118,8 @@
 .form-control-search{
   width: 100%;
   padding: 6px 12px;
-  margin: 4px 0;
+  margin: 100 0;
+  width:30rem;
   display: inline-block;
   border: 2px solid #4CAF50;
   border-radius: 4px;
