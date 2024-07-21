@@ -26,14 +26,17 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to My App</h1>
-        <div className="container">
-          <LoadCSV setCsvData={setCsvData} setFieldnames={setFieldnames} />
-          <DownloadButton csvData={csvData} />
+        <h1>Welcome to TSDB </h1>
+        <LoadCSV setCsvData={setCsvData} setFieldnames={setFieldnames} />
+        <DownloadButton csvData={csvData} /> 
+      </header>
+
+      <body className='App-body'>
+      <div className="container">
           <AddAndSave csvData={csvData} setCsvData={setCsvData} editIndex={editIndex} setEditIndex={setEditIndex} fieldnames={fieldnames} />
           <DisplayCSV csvData={csvData} handleEdit={handleEdit} handleDelete={handleDelete} />
         </div>
-      </header>
+      </body>
     </div>
   );
 };
