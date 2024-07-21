@@ -1,7 +1,7 @@
-サークル名,大学名,都道府県,活動内容,設置区分,X,HomePage,学校コード,設立年度,インカレ,学ロボ,キャチロボ,ロボット相撲大会,ETロボコン,知能ロボコン,水中ロボコン,海洋ロボコン,ひこロボ,鳥人間コンテスト,種コン,モデロケ全国大会,能代宇宙イベント,ARLISS,ALL JAコンテスト,学生フォーミュラ,エコラン,白浜エコカー,U-22 プログラミング,ICPC,SECCON,ISUCON,iGEM
+﻿サークル名,大学名,都道府県,活動内容,設置区分,X,HomePage,学校コード,設立年度,インカレ,学ロボ,キャチロボ,ロボット相撲大会,ETロボコン,知能ロボコン,水中ロボコン,海洋ロボコン,ひこロボ,鳥人間コンテスト,種コン,モデロケ全国大会,能代宇宙イベント,ARLISS,ALL JAコンテスト,学生フォーミュラ,エコラン,白浜エコカー,U-22 プログラミング,ICPC,SECCON,ISUCON,iGEM
 Robot Architect,北海道大学,北海道,ロボット,国立,https://twitter.com/Robot_Architect,https://robot-architect.org,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 北海道大学フォーミュラチーム,北海道大学,北海道,フォーミュラカー,国立,https://x.com/FHT_Hokudai,http://fht-hokudai.com/contents/main.htm,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-北大3Dプリンター研究会(3D研),北海道大学,北海道,その他,国立,https://x.com/hokudai3d,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+北大3Dプリンター研究会(3D研),北海道大学,北海道,工作,国立,https://x.com/hokudai3d,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 PCPG,北海道教育大学,北海道,プログラミング,国立,https://x.com/hue_pcpg,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 夢工房,室蘭工業大学,北海道,ロボット,国立,https://x.com/atelierofdream/with_replies,http://atelierofdream.blog75.fc2.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 MPC,室蘭工業大学,北海道,プログラミング,国立,https://x.com/mpc_kouhou,http://www.muroran-programming.club/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
@@ -13,12 +13,12 @@ MPC,室蘭工業大学,北海道,プログラミング,国立,https://x.com/mpc_
 北見工業大学 Nociws,北見工業大学,北海道,ロケット,国立,https://x.com/kit_nociws,https://nociws.ussy.tech/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 弘前大学ロボティクス研究会,弘前大学,青森県,ロボット,国立,https://x.com/hirodairoboken,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 岩手大学航空研究会Décoller（鳥人間サークル）,岩手大学,岩手県,鳥人間,国立,https://x.com/decollerkun,https://iwatedecoller.wixsite.com/home,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-岩手大学ロケット同好会 Thany,岩手大学,岩手県,ロケット,国立,https://x.com/Rocket_TSKYCHIN,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+岩手大学ロケット同好会　Thany,岩手大学,岩手県,ロケット,国立,https://x.com/Rocket_TSKYCHIN,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 SIFT(岩手連合学生フォーミュラチーム),岩手大学,岩手県,フォーミュラカー,国立,https://x.com/sift4210,http://sift-all-iwate.jp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 工学部自主ゼミナール協議会,東北大学,宮城県,ロボット,国立,https://x.com/T_semi_105,https://blog.t-semi.org/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 東北大学学友会アマチュア無線部,東北大学,宮城県,無線,国立,https://x.com/JA7YA,http://www.ja7yaa.org.tohoku.ac.jp/index.php,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 puzzleknot,東北大学,宮城県,プログラミング,国立,https://x.com/t_puzzleknot,http://puzzleknot.org/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-" FROM THE EARTH",東北大学,宮城県,ロケット,国立,https://x.com/TohokuFTE,https://fte-tohoku.tech/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+ FROM THE EARTH,東北大学,宮城県,ロケット,国立,https://x.com/TohokuFTE,https://fte-tohoku.tech/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 東北大学フォーミュラチームTUFT,東北大学,宮城県,フォーミュラカー,国立,https://x.com/tuft_ev,https://www.tohokuunivformulateam.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 Windnauts,東北大学,宮城県,鳥人間,国立,https://x.com/windnauts_2014,https://www.tohokuunivformulateam.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 東北大航空研,東北大学,宮城県,ひこロボ,国立,https://x.com/tohoku_uav,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
@@ -52,7 +52,7 @@ TUAT Formula,東京農工大学,東京都,フォーミュラーカー,国立,htt
 東工大ロケットサークル CREATE,東京工業大学,東京都,ロケット,国立,https://x.com/create_titech,https://createrocket.wixsite.com/create-tokyotech,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 東京工業大学無線研究部,東京工業大学,東京都,無線,国立,https://x.com/JA1YAD,https://www.musenken.net/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 ロボット研究会,東京海洋大学,東京都,ロボット,国立,https://x.com/Roboken_kaiyo,http://kaiyodairobotclub.web.fc2.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-電気通信大学 工学研究部,電気通信大学,東京都,その他,国立,https://x.com/ueckoken,https://www.koken.club.uec.ac.jp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+電気通信大学 工学研究部,電気通信大学,東京都,工作,国立,https://x.com/ueckoken,https://www.koken.club.uec.ac.jp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 電気通信大学 MMA,電気通信大学,東京都,プログラミング,国立,https://x.com/uecmma,https://t.co/lRiQbWrMLQ,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 電気通信大学無線部,電気通信大学,東京都,無線,国立,https://x.com/ja1zgp,https://www.ja1zgp.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 電気通信大学 U.E.C.wings,電気通信大学,東京都,鳥人間,国立,https://x.com/bird_uecwings,https://www.uecwings.club.uec.ac.jp/blog/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
@@ -130,92 +130,91 @@ TUTものづくりサークル,豊橋技術科学大学,愛知県,ロボット,�
 三重大学計算研究会,三重大学,三重県,プログラミング,国立,https://x.com/calc_mie,https://www.calc.mie.jp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 三重大学 学生フォーミュラチーム 【Tracers】,三重大学,三重県,フォーミュラカー,国立,https://x.com/mieu_formula,https://tracersmieuniv.wixsite.com/tracers,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
 滋賀大競技プログラミングサークル,滋賀大学,滋賀県,プログラミング,国立,https://x.com/shiga_kyopuro,https://shiga-kyopuro.github.io/pages/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-滋賀医科大学コンピュータークラブ,滋賀医科大学,滋賀県,プログラミング,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,国立,,,None,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,None,,,,,,,,,,,,,,,,,,,,,,,,
+滋賀医科大学コンピュータークラブ,滋賀医科大学,滋賀県,プログラミング,国立,https://x.com/sums_cc,https://www.shiga-med.ac.jp/~sumscc/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+京大機械研究会,京都大学,京都府,ロボット,国立,https://x.com/MechatroCreator,https://www.kikaiken.org/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+京大マイコンクラブ (KMC),京都大学,京都府,プログラミング,国立,https://x.com/KMC_JP,https://www.kmc.gr.jp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+京都大学フォーミュラプロジェクトKART,京都大学,京都府,フォーミュラカー,国立,https://x.com/kart_official,http://www.formula-kart.org/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+iGEM Kyoto,京都大学,京都府,iGEM,国立,https://x.com/iGEMkyoto,https://igemkyotoofficial.github.io/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+京都工芸繊維大学コンピュータ部(KITCC),京都工芸繊維大学,京都府,プログラミング,国立,https://x.com/kitcc_org,https://www.kitcc.org/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+京都工芸繊維大学 ForteFibre,京都工芸繊維大学,京都府,ロボット,国立,https://x.com/kitrobocon,https://www.fortefibre.net/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+京都工芸繊維大学 学生フォーミュラ Grandelfino,京都工芸繊維大学,京都府,フォーミュラカー,国立,https://x.com/grandelfino_kit,https://www.grandelfino.net/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+京都工芸繊維大学鳥人間サークル きっと、Flyers,京都工芸繊維大学,京都府,鳥人間,国立,https://x.com/Tori_Human_kit,https://kitflyers.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+大阪大学アマチュア無線クラブ,大阪大学,大阪府,無線,国立,https://x.com/JA3YKC,https://www.ja3ykc.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+大阪大学コンピュータクラブOOUC,大阪大学,大阪府,プログラミング,国立,https://x.com/OUCC,https://oucc.org/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+大阪大学電子技術研究会(ToolBox),大阪大学,大阪府,工作,国立,https://x.com/OuToolbox,https://outoolbox.wixsite.com/tool,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+大阪大学Robohan（ロボット製作団体）,大阪大学,大阪府,ロボット,国立,https://x.com/Robohan_,https://www.robohan.net/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+阪大競技プログラミング部「RAINBOU」,大阪大学,大阪府,プログラミング,国立,https://x.com/rainbou_kpr,https://rainbou.org/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+大阪大学フォーミュラレーシングクラブ(OFRAC),大阪大学,大阪府,フォーミュラカー,国立,https://x.com/ofrac_FSAE,https://ofrac.net/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+飛行機制作研究albatross,大阪大学,大阪府,鳥人間,国立,https://x.com/alba_handai,https://ykn-st.github.io/albatross/index.html,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+FORTEK 神戸大学学生フォーミュラ,神戸大学,大阪府,フォーミュラカー,国立,https://x.com/FORTEK_10,http://formula-kobe.com/FORTEK/home.html#,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+神戸大学ロボット研究会　六甲おろし,神戸大学,大阪府,ロボット,国立,https://x.com/_Rokko_Oroshi_,,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+和歌山大学ロボットPJ,和歌山大学,和歌山県,ロボット,国立,https://x.com/wakayama_rrp,https://rrpj.jimdofree.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+クリエゲーム制作Project (CGP),和歌山大学,和歌山県,ゲーム,国立,https://x.com/CGP_wakayama,https://creagamep.wixsite.com/creagamep,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+和歌山大学ソーラーカープロジェクト,和歌山大学,和歌山県,ソーラーカー,国立,https://x.com/wadaisolar,https://wadaisolarcar.wixsite.com/0803,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+NC機械製作プロジェクト,和歌山大学,和歌山県,その他,国立,https://x.com/waka_cncrea,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+和歌山大学WSP,和歌山大学,和歌山県,ロケット,国立,https://x.com/wsp_wakayama,https://x.com/wsp_wakayama,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+鳥取大学電子計算機研究会,鳥取大学,鳥取県,プログラミング,国立,https://x.com/Densan_tu2,https://densanken.studio.site/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+鳥取大学ロボットラボラトリー,鳥取大学,鳥取県,ロボット,国立,https://x.com/T_Robot_Labo,https://site.icee.tottori-u.ac.jp/home/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+鳥取大学フォーミュラプロジェクト,鳥取大学,鳥取県,フォーミュラカー,国立,https://x.com/toridaiformula,https://site.icee.tottori-u.ac.jp/tufp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+鳥取大学カルマンプロジェクト,鳥取大学,鳥取県,ひこロボ,国立,https://x.com/TUKP_official,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+T-SAT/鳥取大学宇宙開発研究会,鳥取大学,鳥取県,ロケット,国立,https://x.com/t_satellite,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+島根大学ものづくり部 Pim,島根大学,島根県,工作,国立,https://x.com/shimane_u_Pim,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+島根大学無線通信技術部,島根大学,島根県,無線,国立,https://x.com/JA4YPE,https://sites.google.com/view/ja4ype/home,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+岡山大学電子計算機研究会,岡山大学,岡山県,プログラミング,国立,https://x.com/oucrc,https://oucrc.net/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+岡山大学ロボット研究会 そうじまる,岡山大学,岡山県,ロボット,国立,https://x.com/okarobo,https://okadairobot.wixsite.com/okarobo,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+岡山大学 学生フォーミュラプロジェクト,岡山大学,岡山県,フォーミュラカー,国立,https://x.com/OUFP,https://www.cc.okayama-u.ac.jp/hpl/oufp/index.html,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+広島大学ゲーム制作同好会,広島大学,広島県,ゲーム,国立,https://x.com/Hiroshima_GSD/media,https://hu-gsd.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+広島大学学生フォーミュラ Phoenix Racing,広島大学,広島県,フォーミュラカー,国立,https://x.com/HUPhoenixracing,https://fsae-hiroshima.wixsite.com/website,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+広島大学鳥人間チーム HUES,広島大学,広島県,鳥人間,国立,https://x.com/hirodai_hues,https://hiroshimahues.wixsite.com/human-powered,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+SOCU Formula（山口東京理科大学学生フォーミュラチーム）,山口大学,山口県,フォーミュラカー,国立,https://x.com/socu_formula,https://tusy-formula-hp.webnode.jp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+徳島大学ロボコンプロジェクト,徳島大学,徳島県,ロボット,国立,https://x.com/tokudairobocon,http://tokudairoboconhp.web.fc2.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+徳島大学ロケットプロジェクト TRP,徳島大学,徳島県,ロケット,国立,https://x.com/trprocket,https://tokushimarocket.wordpress.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+徳島大学 鳥人間プロジェクト,徳島大学,徳島県,鳥人間,国立,https://x.com/tokudai_toripro,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+徳島大学 ゲームクリエイトプロジェクト,徳島大学,徳島県,ゲーム,国立,https://x.com/tugameproject,https://innovagamecreate.github.io/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+徳島大学エコランプロジェクト,徳島大学,徳島県,エコラン,国立,https://x.com/ecorun_2023,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+阿波電鉄プロジェクト,徳島大学,徳島県,その他,国立,https://x.com/AwadenTokushima,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+香川大学学生総合防災無線局,香川大学,香川県,無線,国立,https://t.co/9D6LxpVCxx,https://jr5yfw5.wixsite.com/home,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+香川大学 SLP-KBIT,香川大学,香川県,プログラミング,国立,https://x.com/KbitSlp,https://poulenc.eng.kagawa-u.ac.jp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+香川大学人工衛星開発研究会,香川大学,香川県,宇宙,国立,https://x.com/KAGAWASpacesat,https://kagawaspacesat.jimdofree.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+香川大学学生ロボット研究所 ,香川大学,香川県,ロボット,国立,https://x.com/Roboken2022,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+愛媛大学航空力学研究会 二宮翔会,愛媛大学,愛媛県,鳥人間,国立,https://x.com/ninomiyashokai,https://sites.google.com/view/ninomiyashokai/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+九州大学鳥人間チーム,九州大学,福岡県,鳥人間,国立,https://x.com/Q_birdman,https://www.q-birdman.jp/index.html,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+九州大学物理研究部Qpic,九州大学,福岡県,ゲーム,国立,https://x.com/Qpic_Official,https://www.qpic.jp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+九州大学 PLANET-Q,九州大学,福岡県,ロケット,国立,https://x.com/KU_PLANETQ,https://planet-q.jimdofree.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+九州大学ICPCチャレンジクラブ,九州大学,福岡県,プログラミング,国立,https://x.com/icpccc,https://kyushu-u-icpccc.hatenablog.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+九州大学ヒューマノイドプロジェクト -QUHP-,九州大学,福岡県,ロボット,国立,https://x.com/QUHP_9dai,https://humanoid9dai.wixsite.com/humanoid,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+九大ロボコンKURT,九州大学,福岡県,ロボット,国立,https://x.com/kurt_Qdai,https://kurt9dai.wixsite.com/kurt,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+糸島空き家プロジェクト,九州大学,福岡県,その他,国立,https://www.instagram.com/itoya2011/,https://aki-pro.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+impression!(ゲーム制作),九州大学,福岡県,ゲーム,国立,https://x.com/impre_official,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+3DD,九州大学,福岡県,工作,国立,https://x.com/3DD_io,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+GLEAP（九大プログラミングサークル）,九州大学,福岡県,プログラミング,国立,https://x.com/gleap_tech,https://circle.gleap.tech/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+Gene Rate（iGEM Qdai）,九州大学,福岡県,iGEM,国立,https://x.com/igemqdai,https://generate.studio.site/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+九州工業大学自然科学部_NSC,九州工業大学,福岡県,"ロボット,無線",国立,https://x.com/nsc_renraku,https://sizenkagakubu.wixsite.com/nsc204,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+プログラミング研究会,九州工業大学,福岡県,プログラミング,国立,https://x.com/kyutech_proken?lang=ja,https://official-site-rho.vercel.app/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+KEPRA,九州工業大学,福岡県,ロケット,国立,https://x.com/pr_kepra,https://kepra.jp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+九工大衛星開発プロジェクト,九州工業大学,福岡県,宇宙,国立,https://x.com/horyu2,https://www.futaba.space/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+Composite Computer Club,九州工業大学,福岡県,ゲーム,国立,https://x.com/c3_kyutech,https://compositecomputer.club/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+九州工業大学無線部,九州工業大学,福岡県,無線,国立,https://x.com/MusenKit,https://musen-kit.amebaownd.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+RoDEP(ロデップ),九州工業大学,福岡県,ロボット,国立,https://x.com/RoDEP_KIT,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+九工大競技プログラミングサークル,九州工業大学,福岡県,プログラミング,国立,https://x.com/kyutech_kyopro,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+佐賀大学コンピュータ研究会 SCLA,佐賀大学,佐賀県,プログラミング,国立,https://x.com/saga_ucomputer,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+佐賀大学 航空研究会,佐賀大学,佐賀県,"ひこロボ,ロケット",国立,https://x.com/SU_uavken,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+マルチメディア研究会,長崎大学,長崎県,ゲーム,国立,https://x.com/ecmultiple,https://ecml.jp/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+NUSE 長崎大学ロケットサークル,長崎大学,長崎県,ロケット,国立,https://x.com/nuserocket,https://nagasaki-rocket.vercel.app/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+長大ロボットサークル,長崎大学,長崎県,ロボット,国立,https://x.com/nagasakirobot,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+熊本大学ロボコン部「からくりサークル」,熊本大学,熊本県,ロボット,国立,https://x.com/karakuri2022,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+大分大学M-creator,大分大学,大分県,ゲーム,国立,https://x.com/mcreator,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+PADO(宇宙開発プロジェクト大分),大分大学,大分県,ロケット,国立,https://x.com/PADO_Oitauniv,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+大分大学 学生団体ROUTE(ロボコン),大分大学,大分県,ロケット,国立,https://x.com/route_iicp,https://route-iicp.ico.oita-u.ac.jp/route-official_home.html,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+宮崎大学無線部,宮崎大学,宮崎県,無線,国立,https://x.com/JA6YBR,https://www.ja6ybr.org/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+鹿児島大学ロボット研究会,鹿児島大学,鹿児島県,ロボット,国立,https://x.com/kadai_robo,https://kadai-roboken.github.io/index.html,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+鹿児島大学SATSUMAロケット研究会,鹿児島大学,鹿児島県,ロケット,国立,https://x.com/RocketSatsuma,https://satsumarocket.amebaownd.com/,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+琉球大学Robotサークル,琉球大学,沖縄県,"ロボット,ロケット,ひこロボ,プログラミング",国立,https://x.com/RyudaiRobot,https://sites.google.com/view/ryudairobot/home,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None,None
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
