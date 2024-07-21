@@ -23,8 +23,8 @@ const DisplayCSV = ({ csvData, handleEdit, handleDelete }) => {
                     type="text"
                     value={searchQuery}
                     onChange={handleSearchChange}
-                    placeholder="サークル名または大学で検索"
-                    className="form-control"
+                    placeholder="さあ、検索しよう"
+                    className="form-control-search"
                 />
             </div>
 

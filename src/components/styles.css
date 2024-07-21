@@ -96,3 +96,24 @@
 .form-group input[type="checkbox"] {
   margin-right: 8px; /* 追加: チェックボックスとテキストの間にマージンを追加 */
 }
+
+.form-control{
+  width: 100%;
+  padding: 6px 12px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.form-control-search{
+  width: 100%;
+  padding: 6px 12px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
