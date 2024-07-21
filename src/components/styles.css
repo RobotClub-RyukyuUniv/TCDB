@@ -1,5 +1,5 @@
 .container {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   
   .card {
@@ -14,7 +14,10 @@
   
 .card-body {
     color:#CCC;
-    font-size:2rem
+    font-size:2rem;
+
+    padding-left: 20px; /* リストの左側にパディングを追加 */
+    list-style-position: inside;
   }
 
 
@@ -26,14 +29,32 @@
   }
 
   .card-title2 {
-    font-size: 1.25rem;
+    font-size: 3rem;
     color: #c4ebf8;
     font-weight: 500;
-    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left; /* リストのテキストを左寄せにする */
   }
   
   .card-text {
     color: #CCC;
+    text-align: left; /* リストのテキストを左寄せにする */
+  }
+
+  .card-text-label {
+    font-size: 0.875rem; /* 文字サイズを小さくする */
+    color: #999; /* 色を薄くする */
+    display: inline-block; /* インラインブロックにする */
+    margin-right: 4px; /* 右側に少しマージンを追加 */
+  }
+
+  .invite_university{
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: left; /* リストのテキストを左寄せにする */
   }
 
   .btn-custom-download {
