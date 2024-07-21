@@ -2,7 +2,7 @@
 
 here is English version [README_EN.md](https://github.com/RobotClub-RyukyuUniv/TCDB/blob/main/README_EN.md)
 
-## What is TSDB?
+## What is TCDB?
 
 Tech club DataBase a.k.a. TCDB は日本の全ての技術系サークルを網羅することを目標に作成されました。
 
