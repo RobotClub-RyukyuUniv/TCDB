@@ -12,7 +12,10 @@ const DisplayCSV = ({ csvData, handleEdit, handleDelete }) => {
     // 検索クエリに基づいてデータをフィルタリング
     const filteredData = csvData.filter(row =>
         (row['サークル名'] && row['サークル名'].includes(searchQuery)) ||
-        (row['大学名'] && row['大学名'].includes(searchQuery))
+        (row['大学名'] && row['大学名'].includes(searchQuery)) ||
+        (row['都道府県'] && row['都道府県'].includes(searchQuery)) ||
+        (row['活動内容'] && row['活動内容'].includes(searchQuery)) ||
+        (row['設置区分'] && row['設置区分'].includes(searchQuery)) 
     );
 
     return (
