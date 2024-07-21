@@ -9,6 +9,7 @@ import './components/styles.css';
 const App = () => {
   const [csvData, setCsvData] = useState([]);
   const [editIndex, setEditIndex] = useState(null);
+  const [fieldnames, setFieldnames] = useState([]);
 
   const handleEdit = (index) => {
     if (editIndex === index) {
@@ -27,9 +28,9 @@ const App = () => {
       <header className="App-header">
         <h1>Welcome to My App</h1>
         <div className="container">
-          <LoadCSV setCsvData={setCsvData} />
+          <LoadCSV setCsvData={setCsvData} setFieldnames={setFieldnames} />
           <DownloadButton csvData={csvData} />
-          <AddAndSave csvData={csvData} setCsvData={setCsvData} editIndex={editIndex} setEditIndex={setEditIndex} />
+          <AddAndSave csvData={csvData} setCsvData={setCsvData} editIndex={editIndex} setEditIndex={setEditIndex} fieldnames={fieldnames} />
           <DisplayCSV csvData={csvData} handleEdit={handleEdit} handleDelete={handleDelete} />
         </div>
       </header>

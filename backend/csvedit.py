@@ -14,7 +14,7 @@ def str_to_dict(data: str):
     # 最初の `[` と最後の `]` を取り除く
     if data.startswith('[') and data.endswith(']'):
         data = data[1:-1]
-    # 文字列を辞書に変換
+    # 文字列をリスト[辞書]に変換
     data_dict = json.loads(f'[{data}]')
     return data_dict
 
@@ -25,10 +25,23 @@ def encoding_detect(file_path: str):
         encoding = result['encoding']
     return encoding
 
-def edit(data: str):
+def str_to_list(data: str) -> list:
+    # 改行を取り除く
+    data = data.replace('\n', '')
+    data = data.replace('\r', '')
+    return data.split(',')
 
+def edit(data: str, fieldnames: str):
     # データのリスト化
-    data_dict = str_to_dict(data)
+    data_list = str_to_dict(data)
+    fieldname_list = str_to_list(fieldnames)
+
+    # 改行文字を削除
+    fieldname_list = [field.strip() for field in fieldname_list]
+
+    print("データ:", data_list)
+    print('------------------')
+    print("フィールド名リスト:", fieldname_list)
 
     # csvのパス（親ディレクトリから見たパス）
     file_path = os.path.join(parent_dir, 'public/robot_DB_example.csv')
@@ -37,12 +50,15 @@ def edit(data: str):
 
     # csvファイルの書き込み
     with open(file_path, 'w', encoding=encoding, newline='') as f:
-        fieldnames = data_dict[0].keys()
-        writer = csv.writer(f)
-        writer.writerow(fieldnames)
-        for row in data_dict:
-            print(row)
-            print(row.values())
-            writer.writerow(row.values())
+        writer = csv.DictWriter(f, fieldnames=fieldname_list)
+        writer.writeheader()
+        for row_dict in data_list:
+            # 空の辞書をフィルタリング
+            if any(row_dict.values()):
+                print("書き込む行:", row_dict)
+                writer.writerow(row_dict)
+
+    with open(file_path, encoding=encoding) as file_object:
+        print(file_object.read())
 
     return 0

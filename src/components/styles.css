@@ -11,8 +11,15 @@
   }
   
   .card-title {
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .card-title2 {
+    font-size: 1.25rem;
+    color: #c5c5c5;
+    font-weight: 500;
     margin-bottom: 8px;
   }
   
@@ -63,9 +70,29 @@
     border-radius: 8px;
   }
 
-  .add-edit-form{
+  .add-edit-form {
     margin-top: 20px;
     background-color: #6a8791; 
     padding: 16px;
     border-radius: 8px;
-  }
+    text-align: left; /* 追加: フォームのラベルと入力フィールドを左寄せにする */
+}
+
+.form-group label {
+  display: flex; /* 追加: ラベルをフレックスボックスにする */
+  align-items: center; /* 追加: ラベル内のアイテムを中央揃えにする */
+  text-align: left; /* 追加: ラベルのテキストを左寄せにする */
+  color: black; /* 追加: ラベルの文字色を黒にする */
+  font-size: 0.875rem; /* 追加: ラベルの文字サイズを小さくする */
+}
+
+.form-group input[type="text"] {
+  display: block; /* 追加: テキスト入力フィールドをブロック要素にする */
+  text-align: left; /* 追加: テキスト入力フィールドのテキストを左寄せにする */
+  color: black; /* 追加: テキスト入力フィールドの文字色を黒にする */
+  font-size: 0.875rem; /* 追加: テキスト入力フィールドの文字サイズを小さくする */
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 8px; /* 追加: チェックボックスとテキストの間にマージンを追加 */
+}

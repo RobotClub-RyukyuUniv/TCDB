@@ -1,4 +1,3 @@
-サークル名,大学
-a,a
-aghgh,a
-琉大,大学
+サークル名,大学名,都道府県,活動内容,設置区分,X,HomePage,学校コード,設立年度,インカレ,学ロボ,キャチロボ,ロボット相撲大会,ETロボコン,知能ロボコン,水中ロボコン,海洋ロボコン,ひこロボ,鳥人間コンテスト,種コン,モデロケ全国大会,能代宇宙イベント,ARLISS,ALL JAコンテスト,学生フォーミュラ,エコラン,U-22 プログラミング,ICPC,SECCON,ISUCON,iGEM
+琉大robot,琉大,沖縄,定例会,国立,aa,aa,aa,aa,False,True,True,False,False,True,False,True,True,True,False,True,False,True,False,False,False,True,True,True,False,False
+例えば,aaa,aaa,aaa,国立,,,,,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
