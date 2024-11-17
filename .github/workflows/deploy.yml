@@ -13,9 +13,9 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install Node.js
-        uses: actions/setup-n   ode@v3
+        uses: actions/setup-node@v3
         with:
-          node-versi   on: '18' # 使用するNode.jsのバージョンを指定
+          node-version: '18' # 使用するNode.jsのバージョンを指定
 
       - name: Install dependencies
         run: npm install
