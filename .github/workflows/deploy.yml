@@ -3,7 +3,10 @@ name: Deploy React App
 on:
   push:
     branches:
-      - main # デプロイするブランチを指定
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -15,16 +18,16 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # 使用するNode.jsのバージョンを指定
+          node-version: '18'
 
       - name: Install dependencies
         run: npm install
 
       - name: Build app
-        run: npm run build # ビルドコマンドを指定
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build # ビルドされたファイルの出力先を指定
+          publish_dir: ./build
