@@ -1,0 +1,30 @@
+name: Deploy React App
+
+on:
+  push:
+    branches:
+      - main # デプロイするブランチを指定
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-n   ode@v3
+        with:
+          node-versi   on: '18' # 使用するNode.jsのバージョンを指定
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build app
+        run: npm run build # ビルドコマンドを指定
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build # ビルドされたファイルの出力先を指定
