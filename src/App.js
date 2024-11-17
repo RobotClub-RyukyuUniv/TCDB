@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to TSDB </h1>
+        <h1>Welcome to TCDB </h1>
         <LoadCSV setCsvData={setCsvData} setFieldnames={setFieldnames} />
         <DownloadButton csvData={csvData} /> 
       </header>
